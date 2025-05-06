@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="10" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-06T22:17:44 IST" name="Suite" finished-at="2025-05-06T22:17:44 IST" duration-ms="42">
+    <groups>
+      <group name="mac.Smoke">
+        <method signature="GroupsDemo.test10()[pri:0, instance:demoPackage.GroupsDemo@6fdbe764]" name="test10" class="demoPackage.GroupsDemo"/>
+      </group> <!-- mac.Smoke -->
+      <group name="mac.Retest">
+        <method signature="GroupsDemo.test9()[pri:0, instance:demoPackage.GroupsDemo@6fdbe764]" name="test9" class="demoPackage.GroupsDemo"/>
+      </group> <!-- mac.Retest -->
+    </groups>
+    <test started-at="2025-05-06T22:17:44 IST" name="Test" finished-at="2025-05-06T22:17:44 IST" duration-ms="42">
+      <class name="demoPackage.GroupsDemo">
+        <test-method signature="test10()[pri:0, instance:demoPackage.GroupsDemo@6fdbe764]" started-at="2025-05-06T22:17:44 IST" name="test10" finished-at="2025-05-06T22:17:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+        <test-method signature="test9()[pri:0, instance:demoPackage.GroupsDemo@6fdbe764]" started-at="2025-05-06T22:17:44 IST" name="test9" finished-at="2025-05-06T22:17:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test9 -->
+      </class> <!-- demoPackage.GroupsDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
