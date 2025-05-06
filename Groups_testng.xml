@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  
+  <groups>
+  	<define name="EarlyMorningTest">
+  	<include name="Smoke"></include>
+  	<include name="Sanity"></include></define>
+  	<run>
+  		 <!-- <include name="EarlyMorningTest"></include> -->
+  		 <!-- <exclude name="Regression"></exclude> -->
+  		 <include name="mac.*"></include>
+  	</run>
+  </groups>
+  
+    <classes>
+      <class name="demoPackage.GroupsDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

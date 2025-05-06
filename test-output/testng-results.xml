@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-22T18:46:17 IST" name="Default suite" finished-at="2025-04-22T18:47:18 IST" duration-ms="60636">
+    <groups>
+    </groups>
+    <test started-at="2025-04-22T18:46:17 IST" name="Default test" finished-at="2025-04-22T18:47:18 IST" duration-ms="60636">
+      <class name="Tests.HybridDrivenFrameworkDemo">
+        <test-method signature="executionMethod()[pri:0, instance:Tests.HybridDrivenFrameworkDemo@6cd28fa7]" started-at="2025-04-22T18:46:17 IST" name="executionMethod" finished-at="2025-04-22T18:47:18 IST" duration-ms="60592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executionMethod -->
+      </class> <!-- Tests.HybridDrivenFrameworkDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
